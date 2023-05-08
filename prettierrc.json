@@ -1,0 +1,28 @@
+{
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "semi": true,
+  "arrowParens": "avoid",
+  "jsxSingleQuote": true,
+  "jsxBracketSameLine": false,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.mdx"],
+      "options": {
+        "printWidth": 80,
+        "singleQuote": false,
+        "semi": false
+      }
+    },
+    {
+      "files": ["*.tsx"],
+      "options": {
+        "trailingComma": "none",
+        "jsxSingleQuote": false
+      }
+    }
+  ]
+}
